@@ -1,7 +1,7 @@
 import { promises, readFileSync } from 'fs'
 import { join } from 'path'
 import { xpRange } from '../lib/levelling.js'
-import fetch from 'node-fetch'
+import { fetch } from 'node-fetch'
 
 let tags = {
   'main': 'Main',
@@ -40,12 +40,9 @@ let tags = {
   'nocategory': 'No Category',
 }
 let emot = `${pickRandom(['⎔', '✦', '⭑', 'ᯬ', '⭔', '◉', '⬟', '▢', '᭻', '»', '〆', '々', '⛥', '✗', '⛊', '⚜', '⚝', '⚚', '♪'])}`
-let rus = JSON.parse(readFileSync('./json/emoji.json'))
-let emm = rus.emoji
-
 const defaultMenu = {
   before: `
-Hai, *%name!* %ucapan
+Hai, *%name!*
 
 *Tanggal:* %week, %date
 *Waktu:* %time
@@ -56,11 +53,11 @@ Hai, *%name!* %ucapan
 *Fitur:* %totalfeatures command
 
 %readmore
-*Support me:* _https://s.id/Cerdasin62_
+*Support me:* nekopoi.com
 *Note:*
 _Jika Respon Tidak Muncul Kemungkinan Terjadi Error_
 `.trimStart(),
-  header: `${cmenut} *%category* ${emm.getRandom()}`,
+  header: `${cmenut} *%category* ${cmenuh}`,
   body: `┊${emot} %cmd %islimit %isPremium`,
   footer: `${cmenuf}`,
   after: `${cmenua}`,
@@ -185,13 +182,14 @@ let handler = async (m, { conn, groupMetadata, usedPrefix: _p, __dirname }) => {
       totalexp: exp,
       xp4levelup: max - exp,
       github: _package.homepage ? _package.homepage.url || _package.homepage : '[unknown github url]',
-      level, totalfeatures, limit, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role, ucapan,
+      level, totalfeatures, limit, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), wm + '\n\n' + botdate, hwaifu.getRandom(), sgc, 'Hinata Group', who.split`@`[0], em.getRandom() + ' Your Number', [
+    conn.sendHydrated(m.chat, text.trim(), wm + '\n\n' + botdate, pp, gcwangsaf, 'Group Bot official', who.split`@`[0], em.getRandom() + ' Your Number', [
       ['🎀 Menu', '/menu'],
-      ['🪄 Owner', '/owner']
+      ['🪄 Owner', '/owner'],
+      ['🔖 Test', '/ping']
     ], null, false, { mentions: [text] })
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
