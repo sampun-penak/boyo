@@ -224,7 +224,7 @@ let ktx = ktnya.getRandom()
 	title: `${htki} SUPPORT ${htka}`,
 	rows: [
 	    {title: `❋ཻུ۪۪⸙  SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa EzaBot"},
-	    {title: `❋ཻུ۪۪⸙  LIST PREMIUM`, rowId: ".premlist", description: "Menampilkan list harga premium"},
+	    {title: `❋ཻུ۪۪⸙  LIST PREMIUM`, rowId: ".premlist", description: "Menampilkan list premium"},
 	    {title: `❋ཻུ۪۪⸙  DONASI`, rowId: ".donasi", description: 'Support EzaBot agar lebih fast respon'},
 	]
 	},{
