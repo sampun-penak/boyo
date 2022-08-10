@@ -372,7 +372,7 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 /*Link*/
 global.sig = 'https://instagram.com/itz.reza_official_'
 global.sgh = 'https://github.com/RezaOfc'
-global.sgc = 'https://chat.whatsapp.com/BCgUSCxQltq8SwcpJe1tDf'
+global.sgc = 'https://chat.whatsapp.com/BM7kCWXkDGo9RYfpSWatCY'
 global.sdc = '-'
 global.snh = '-'
 
@@ -427,7 +427,7 @@ global.wait = 'Wait...'
 global.render = 'Render...'
 global.webs = ''
 global.logo = 'https://telegra.ph/file/b22ded093f0afe6cf10da.jpg'
-global.gcwangsaf = 'https://chat.whatsapp.com/BCgUSCxQltq8SwcpJe1tDf'
+global.gcwangsaf = 'https://chat.whatsapp.com/BM7kCWXkDGo9RYfpSWatCY'
 
 /*Donasi*/
 global.saweria = '-'
