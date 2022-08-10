@@ -370,11 +370,11 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 
 /*Link*/
-global.sig = 'https://instagram.com/wudysoft'
-global.sgh = 'https://github.com/AyGemuy'
-global.sgc = 'https://chat.whatsapp.com/Fxz8FpQ0ddr2GrEjfYkJ1E'
-global.sdc = 'https://discord.com/wudysoft'
-global.snh = 'https://tiktok.com/@upload_file'
+global.sig = 'https://instagram.com/itz.reza_official_'
+global.sgh = 'https://github.com/RezaOfc'
+global.sgc = 'https://chat.whatsapp.com/BCgUSCxQltq8SwcpJe1tDf'
+global.sdc = '-'
+global.snh = '-'
 
 /*Nsfw*/
 global.optsnsfw = true
