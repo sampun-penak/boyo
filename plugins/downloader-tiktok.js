@@ -8,8 +8,8 @@ let name = await conn.getName(who)
 
 if (!args[0]) throw `Use example ${usedPrefix}${command} https://vt.tiktok.com/ZSwWCk5o/`
 let buttons = [
-	{ buttonText: { displayText: 'With Wm' }, buttonId: `${usedPrefix}tiktokwm ${args[0]}` },
-	{ buttonText: { displayText: 'No Wm' }, buttonId: `${usedPrefix}tiktoknowm ${args[0]}` }
+	{ buttonText: { displayText: 'Donasi ≧ω≦' }, buttonId: `${usedPrefix}donasi ${args[0]}` },
+	{ buttonText: { displayText: 'Owner ≥3≤' }, buttonId: `${usedPrefix}owner ${args[0]}` }
 	]
 if (command == 'tiktok') {
     const { author: { nickname }, video, description } = await tiktokdl(args[0])
