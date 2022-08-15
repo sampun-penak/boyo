@@ -74,7 +74,7 @@ global.nameown = '「 RezaOfc 」'
 
 /*Watermark*/
 global.wm = '                「 EzaBot-MD⁩ 」'
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘RezaOfc˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
 global.wm3 = '⫹⫺ EzaBot-MD'
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}`
@@ -418,7 +418,7 @@ global.htjava = '⫹⫺'
 global.stickpack = '.'
 global.stickauth = `☂︎EzaBot-Md\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
 global.packname = '☂︎ Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.author = 'EzaBot-MD X RezaOfc'
+global.author = 'EzaBot-MD'
 global.multiplier = 69
 
 /*Pesan*/
