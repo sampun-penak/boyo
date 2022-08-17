@@ -282,7 +282,7 @@ _HAI KAK ${conn.getName(m.sender)}_ （＾ω＾）
 *⫹⫺ Level:* ${level}
 *⫹⫺ Role:* ${role}
 *⫹⫺ Terdaftar:* ${registered ? 'Ya (' + new Date(regTime).toLocaleString() + ')' : 'Tidak'} ${lastclaim > 0 ? '\n*⏱️Terakhir Klaim:* ' + new Date(lastclaim).toLocaleString() : ''}\n\n ───────── 
-*Gc Bot* :https://chat.whatsapp.com/BM7kCWXkDGo9RYfpSWatCY
+*Gc Bot* :https://chat.whatsapp.com/Htbopc53nFD3puFb3LfMe1
 *Ig Owner* :https://instagram.com/itz.reza_official_
 ─────────`
 const listMessage = {
