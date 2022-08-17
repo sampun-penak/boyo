@@ -1,5 +1,9 @@
 import fs from 'fs'
-let handler = async (m, { conn, args, command }) => {
+import fetch from 'node-fetch'
+let handler = async (m, { conn, args, usedPrefix, command }) => {
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
+let name = await conn.getName(who)
 	let _muptime
     if (process.send) {
       process.send('uptime')
@@ -9,20 +13,19 @@ let handler = async (m, { conn, args, command }) => {
       }) * 1000
     }
     let muptime = clockString(_muptime)
- conn.reply(m.chat, `${htki} *R U N T I M E* ${htka}\n${muptime}\n`, m, {
-contextInfo: { externalAdReply :{
-                        mediaUrl: '',
-                        mediaType: 2,
-                        description: 'anu',
-                        title: bottime,
-                        body: wm2,          previewType: 0,
-                        thumbnail: fs.readFileSync("./src/avatar_contact.png"),
-                        sourceUrl: snh
-                      }}
-})
+    let caption = `👋 Hai *${name} @${who.split("@")[0]}*,\n\n${wm}\n${htjava} *R U N T I M E* ${htjava}\n${muptime}\n`.trim()
+await conn.sendButton(m.chat, caption, author, await(await fetch(hwaifu.getRandom())).buffer(), [['🎀 Menu', '/menu']], m, { mentions: conn.parseMention(caption), fileLength: fsizedoc, seconds: fsizedoc, contextInfo: {
+          externalAdReply :{
+    mediaUrl: sig,
+    mediaType: 2,
+    description: wm, 
+    title: '👋 Hai, ' + name + ' ' + ucapan,
+    body: botdate,
+    thumbnail: await(await fetch(pp)).buffer(),
+    sourceUrl: sig
+     }}
+  })
 }
-
-
 handler.help = ['runtime']
 handler.tags = ['info']
 handler.command = ['runtime', 'rt']
