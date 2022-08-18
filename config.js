@@ -67,7 +67,7 @@ global.xteamkey = 'NezukoTachibana281207'
 */
 
 /*Number*/
-global.nomorbot = '6283815019820'
+global.nomorbot = '6283823103071'
 global.nomorown = '6289606790112'
 global.namebot = 'EzaBot-MD'
 global.nameown = '「 RezaOfc 」'
