@@ -271,20 +271,22 @@ let ktx = ktnya.getRandom()
 
 let tek = `
 _HAI KAK ${conn.getName(m.sender)}_ （＾ω＾）
-*Saya Adalah Robot Yang Di Beri Nama Eza Bot*
-*Saya Di Kembangkan Oleh Seseorang Yang Bernama RezaOfc*
+*Saya adalah bot yang di beri nama EzaBot-MD*
+*Saya di kembangkan oleh seseorang yang bernama RezaOfc*
+_(@6289606790112)_
 
 ╭══════════ ⳹❋ཻུ۪۪⸙ 
 ║ *YOUR PROFILE*
 ╰══════════ ⳹❋ཻུ۪۪⸙ 
-*⫹⫺ Nama:* ( @${who.split("@")[0]} )
+*⫹⫺ Nama:* @${who.split("@")[0]} 
 *⫹⫺ Money:* *RP* ${money}
 *⫹⫺ Level:* ${level}
 *⫹⫺ Role:* ${role}
 *⫹⫺ Terdaftar:* ${registered ? 'Ya (' + new Date(regTime).toLocaleString() + ')' : 'Tidak'} ${lastclaim > 0 ? '\n*⏱️Terakhir Klaim:* ' + new Date(lastclaim).toLocaleString() : ''}\n\n ───────── 
-*Gc Bot* :https://chat.whatsapp.com/Htbopc53nFD3puFb3LfMe1
-*Ig Owner* :https://instagram.com/itz.reza_official_
-─────────`
+*Gc Bot* :_*https://bit.ly/3dEn6vF*_
+*Ig Owner* :_*https://bit.ly/3R3n6nd*_
+*WhatsApp* :_*@0*_
+ ─────────`
 const listMessage = {
   text: tek,
   footer: '⎙ *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner',
