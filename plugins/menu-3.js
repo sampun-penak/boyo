@@ -273,7 +273,6 @@ let tek = `
 _HAI KAK ${conn.getName(m.sender)}_ （＾ω＾）
 *Saya adalah bot yang di beri nama EzaBot-MD*
 *Saya di kembangkan oleh seseorang yang bernama RezaOfc*
-_(@6289606790112)_
 
 ╭══════════ ⳹❋ཻུ۪۪⸙ 
 ║ *YOUR PROFILE*
