@@ -19,7 +19,6 @@ Hai, *%name!*
 *Fitur:* %totalfeatures command
 
 %readmore
-*Support me:* nekopoi.com
 *Note:*
 _Jika Respon Tidak Muncul Kemungkinan Terjadi Error_
 `.trimStart(),
@@ -34,10 +33,10 @@ let ktnya = ['\n\n\n' + htjava + ' Gw Sange Sama Anime? ' + htjava,
  '\n\n\n' + htjava + ' gw gay dan gw bangga ' + htjava,
  '\n\n\n' + htjava + ' Kalau gk muncul berarti error ' + htjava,
  '\n\n\n' + htjava + ' Jika lama kemungkiman erorr atau delay ' + htjava,
- '\n\n\n' + htjava + ' I love EzaBot ' + htjava,
+ '\n\n\n' + htjava + ' I love TheBotz ' + htjava,
  '\n\n\n' + htjava + ' Wait... ' + htjava,
  '\n\n\n' + htjava + ' ahhh yameteh om ' + htjava,
- '\n\n\n' + htjava + ' donasi dong bang biar owner semangat ngejalanin EzaBot ' + htjava,
+ '\n\n\n' + htjava + ' donasi dong bang biar owner semangat ngejalanin TheBotz ' + htjava,
  '\n\n\n' + htjava + ' Prosess... ' + htjava]
 let ktx = ktnya.getRandom()
      let res = JSON.parse(readFileSync('./json/emoji.json'))
@@ -216,16 +215,16 @@ let ktx = ktnya.getRandom()
    {
 	title: `${htki} MAIN ${htka}`,
 	rows: [
-	    {title: `❏ SPEED BOT`, rowId: ".ping", description: "Menampilkan kecepatan respon EZABOT"},
-	    {title: `❏ OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner EZABOT"},
+	    {title: `❏ SPEED BOT`, rowId: ".ping", description: "Menampilkan kecepatan respon TheBotz"},
+	    {title: `❏ OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner TheBotz"},
 	    {title: `❏ SCRIPT BOT`, rowId: ".sc", description: `Source Code`},
 	]
     },{
 	title: `${htki} SUPPORT ${htka}`,
 	rows: [
-	    {title: `❋ཻུ۪۪⸙  SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa EzaBot"},
+	    {title: `❋ཻུ۪۪⸙  SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa TheBotz"},
 	    {title: `❋ཻུ۪۪⸙  LIST PREMIUM`, rowId: ".premlist", description: "Menampilkan list premium"},
-	    {title: `❋ཻུ۪۪⸙  DONASI`, rowId: ".donasi", description: 'Support EzaBot agar lebih fast respon'},
+	    {title: `❋ཻུ۪۪⸙  DONASI`, rowId: ".donasi", description: 'Support TheBotz agar lebih fast respon'},
 	]
 	},{
 	title: `${htki} MENU ${htka}`,
@@ -271,8 +270,8 @@ let ktx = ktnya.getRandom()
 
 let tek = `
 _HAI KAK ${conn.getName(m.sender)}_ （＾ω＾）
-*Saya adalah bot yang di beri nama EzaBot-MD*
-*Saya di kembangkan oleh seseorang yang bernama RezaOfc*
+*Saya adalah bot yang di beri nama TheBotz-Ofc*
+*Saya di kembangkan oleh seseorang yang bernama MimimOfc*
 
 ╭══════════ ⳹❋ཻུ۪۪⸙ 
 ║ *YOUR PROFILE*
@@ -282,8 +281,8 @@ _HAI KAK ${conn.getName(m.sender)}_ （＾ω＾）
 *⫹⫺ Level:* ${level}
 *⫹⫺ Role:* ${role}
 *⫹⫺ Terdaftar:* ${registered ? 'Ya (' + new Date(regTime).toLocaleString() + ')' : 'Tidak'} ${lastclaim > 0 ? '\n*⏱️Terakhir Klaim:* ' + new Date(lastclaim).toLocaleString() : ''}\n\n ───────── 
-*Gc Bot* :_*https://bit.ly/3dEn6vF*_
-*Ig Owner* :_*https://bit.ly/3R3n6nd*_
+*Gc Bot* :_*https://chat.whatsapp.com/EJik1WvMpxeCoCEGAFRqiV*_
+*Ig Owner* :*https://instagram.com/sampun_penak*
 *WhatsApp* :_*@0*_
  ─────────`
 const listMessage = {

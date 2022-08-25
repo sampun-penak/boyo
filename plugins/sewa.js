@@ -14,7 +14,7 @@ Rp. 20.000 Dana
 Rp. 20.000 Pulsa
 
 *BELI?  CHAT OWNER*
-wa.me/6289606790112`
+wa.me/6283816446896`
 
 let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 /*const message = {
