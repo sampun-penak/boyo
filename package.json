@@ -1,5 +1,5 @@
 {
-    "name": "wudysoft",
+    "name": "mimimofc",
     "version": "2.4.0",
     "description": "Free WhatsApp Bot Multi Device With ESM Module",
     "main": "index.js",
@@ -26,16 +26,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/AyGemuy",
+    "homepage": "https://github.com/sampun-penak",
     "author": {
-        "name": "AyGemuy"
+        "name": "sampun-penak"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/AyGemuy/HinataBot.git"
+        "url": "git+https://github.com/sampun-penak/boyo.git"
     },
     "bugs": {
-        "url": "https://github.com/AyGemuy/HinataBot/issues"
+        "url": "https://github.com/sampun-penak/boyo/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {

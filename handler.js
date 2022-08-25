@@ -1286,9 +1286,9 @@ export async function participantsUpdate({ id, participants, action }) {
   let katarandom = restext.split('\n')
   
   /*
-  this.sendHydrated2(id, text, wm + '\n\n' + botdate, action === 'add' ? pp : pp, sgc, (action == 'add' ? 'Hinata Group' : 'Nitip Gorengan'), null, null, [
+  this.sendHydrated2(id, text, wm + '\n\n' + botdate, action === 'add' ? pp : pp, sgc, (action == 'add' ? 'TheBotz Group' : 'Nitip Gorengan'), null, null, [
       ['🎀 Menu', '/menu'],
-      ['🪄 Test', '/ping'],
+      [''🔱 Test', '/ping'],
       ['Ok 🎉\n\n' + katarandom.getRandom() + '\n\n', '...']
     ], null, false, { mentions: [user] })
     */
@@ -1402,7 +1402,7 @@ ${htjava} Perintah ini hanya untuk *Admin* grup !`,
         botAdmin: `*${htki} 𝐀𝐋𝐄𝐑𝐓 ${htka}*\n
 ${htjava} Jadikan bot sebagai *Admin* untuk menggunakan perintah ini !`,
         unreg: `*${htki} 𝐀𝐋𝐄𝐑𝐓 ${htka}*\n
-${htjava} Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Hinata.18* !`,
+${htjava} Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Mimim.19* !`,
         nsfw: `*${htki} 𝐀𝐋𝐄𝐑𝐓 ${htka}*\n
 ${htjava} NSFW tidak aktif, Silahkan hubungi Team Bot Discussion untuk mengaktifkan fitur ini !`,
         rpg: `*${htki} 𝐀𝐋𝐄𝐑𝐓 ${htka}*\n

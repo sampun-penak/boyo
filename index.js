@@ -16,12 +16,12 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('Hinata', {
+say('Mimim', {
   font: 'shade',
   align: 'center',
   colors: ['red', 'yellow']
 })
-say('🐾 RPG BOT Multi-Device HinataNew', {
+say('🐾 RPG BOT Multi-Device TheBotz', {
   font: 'console',
   align: 'center',
   colors: ['green']

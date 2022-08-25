@@ -6,7 +6,7 @@ import moment from 'moment-timezone'
 
 /*Oᴡɴᴇʀ number*/
 global.owner = [
-  ['6289606790112', '️RezaOfc', true]
+  ['6283816446896', '️MimimOfc', true]
 ]
 global.mods = []
 global.prems = []
@@ -67,24 +67,24 @@ global.xteamkey = 'NezukoTachibana281207'
 */
 
 /*Number*/
-global.nomorbot = '6283823103071'
-global.nomorown = '6289606790112'
-global.namebot = 'EzaBot-MD'
-global.nameown = '「 RezaOfc 」'
+global.nomorbot = '6287746323929'
+global.nomorown = '6283816446896'
+global.namebot = 'TheBotz-Official'
+global.nameown = '「 MimimOfc 」'
 
 /*Watermark*/
-global.wm = '                「 EzaBot-MD⁩ 」'
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘RezaOfc˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ EzaBot-MD'
+global.wm = '                「 TheBotz-Official⁩ 」'
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘MimimOfc˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ TheBotz-Official'
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}`
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 
 /*Thumbnail*/
-global.thumb = 'https://i.ibb.co/ccY2Q0k/20220429-191026.jpg'
-global.imagebot = 'https://telegra.ph/file/793b6accf3758f092742a.jpg'
+global.thumb = 'https://telegra.ph/file/a95dbbb9999e450ca2647.jpg'
+global.imagebot = 'https://telegra.ph/file/a95dbbb9999e450ca2647.jpg'
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumbs = ['https://i.ibb.co/ccY2Q0k/20220429-191026.jpg','https://telegra.ph/file/f87047ec6e5f0d4a9ea91.jpg','https://telegra.ph/file/88edbb01051b397574def.jpg','https://telegra.ph/file/7957630a57078c5ec0400.jpg']
+global.thumbs = ['https://telegra.ph/file/a95dbbb9999e450ca2647.jpg','https://telegra.ph/file/f87047ec6e5f0d4a9ea91.jpg','https://telegra.ph/file/88edbb01051b397574def.jpg','https://telegra.ph/file/7957630a57078c5ec0400.jpg']
 global.fla='https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.flaaa = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
@@ -370,11 +370,11 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 
 /*Link*/
-global.sig = 'https://instagram.com/itz.reza_official_'
-global.sgh = 'https://github.com/RezaOfc'
-global.sgc = 'https://chat.whatsapp.com/Htbopc53nFD3puFb3LfMe1'
-global.sdc = '-'
-global.snh = '-'
+global.sig = 'https://instagram.com/sampun_penak'
+global.sgh = 'https://github.com/sampun-penak'
+global.sgc = 'https://chat.whatsapp.com/EJik1WvMpxeCoCEGAFRqiV'
+global.sdc = 'https://t.me/sampun_penak'
+global.snh = 'https://facebook.com/mimim.project'
 
 /*Nsfw*/
 global.optsnsfw = true
@@ -416,32 +416,32 @@ global.htjava = '⫹⫺'
 
 /*Watermark*/
 global.stickpack = '.'
-global.stickauth = `☂︎EzaBot-Md\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.stickauth = `☂︎TheBotz-Official\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
 global.packname = '☂︎ Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.author = 'EzaBot-MD'
+global.author = 'Mimim-Official'
 global.multiplier = 69
 
 /*Pesan*/
 global.eror = 'Erorr...'
 global.wait = 'Wait...'
 global.render = 'Render...'
-global.webs = ''
+global.webs = 'https://facebook.com/sampun.penak'
 global.logo = 'https://telegra.ph/file/b22ded093f0afe6cf10da.jpg'
-global.gcwangsaf = 'https://chat.whatsapp.com/Htbopc53nFD3puFb3LfMe1'
+global.gcwangsaf = 'https://chat.whatsapp.com/EJik1WvMpxeCoCEGAFRqiV'
 
 /*Donasi*/
-global.saweria = '-'
-global.dana = ['089606790112']
-global.pulsa = ['089606790112']
-global.trakteer = '-'
-global.paypal = 'nb.boruto.official@gmail.com'
-global.gopay = '089606790112'
-global.pdana = '089606790112'
-global.povo = '-'
-global.pgopay = '089606790112'
-global.ppulsa = '089606790112'
-global.ppulsa2 = '089606790112'
-global.psaweria = '-'
+global.saweria = 'https://saweria.co/mimimproject'
+global.dana = ['087848115476']
+global.pulsa = ['087848115476']
+global.pulsa2 = ['083816446896']
+global.paypal = '-'
+global.gopay = '087848115476'
+global.pdana = '087848115476'
+global.povo = '087848115476'
+global.pgopay = '087848115476'
+global.ppulsa = '087848115476'
+global.ppulsa2 = '083816446896'
+global.psaweria = 'https://saweria.co/mimimproject'
 
 /*Emoji*/
 global.rpg = {

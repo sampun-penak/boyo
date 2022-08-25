@@ -1,1 +1,1 @@
-rm -rf HinataNew && git clone https://github.com/AyGemuy/HinataNew && sudo apt install ffmpeg imagemagick -y && cd HinataNew && npm install && npm install -g pm2 && pm2 start index.js && pm2 logs
+rm -rf boyo && git clone https://github.com/sampun-penak/boyo && sudo apt install ffmpeg imagemagick -y && cd boyo && npm install && npm install -g pm2 && pm2 start index.js && pm2 logs

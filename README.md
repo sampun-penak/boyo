@@ -1,37 +1,37 @@
-# Hinata
+# Mimim
 
 <p align="center">
-	<img src="https://www.clipartmax.com/png/full/216-2164564_hyuga-hinata-sts-chibi-by-krizeii-hinata-hyuga-chibi-render.png" width="75%" style="margin-left: auto;margin-right: auto;display: block;">
+	<img src="https://www.clipartmax.com/png/full/216-2164564_official-mimim-sts-chibi-by-krizeii-mimim-official-chibi-render.png" width="75%" style="margin-left: auto;margin-right: auto;display: block;">
 
 
 </p>
 <p align="center">
-<a href="#"><img title="Hinata" src="https://img.shields.io/badge/Hinata-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="Mimim" src="https://img.shields.io/badge/Mimim-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/AyGemuy"><img title="AyGemuy" src="https://img.shields.io/badge/Author-AyGemuy-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/sampun-penak"><img title="sampun-penak" src="https://img.shields.io/badge/Author-sampun-penak-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 </p>
 </div>
 <p align="center">
-<a href="https://github.com/AyGemuy/followers"><img title="Followers" src="https://img.shields.io/github/followers/AyGemuy?style=flat-square"></a>
-<a href="https://github.com/AyGemuy/Hinata/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/AyGemuy/Hinata?style=flat-square"></a>
-<a href="https://github.com/AyGemuy/Hinata/network/members"><img title="Forks" src="https://img.shields.io/github/forks/AyGemuy/Hinata?style=flat-square"></a>
-<a href="https://github.com/AyGemuy/Hinata/watchers"><img title="watchers" src="https://img.shields.io/github/watchers/AyGemuy/Hinata?style=flat-square"></a>
+<a href="https://github.com/sampun-penak/followers"><img title="Followers" src="https://img.shields.io/github/followers/sampun-penak?style=flat-square"></a>
+<a href="https://github.com/sampun-penak/boyo/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/sampun-penak/boyo?style=flat-square"></a>
+<a href="https://github.com/sampun-penak/boyo/network/members"><img title="Forks" src="https://img.shields.io/github/forks/sampun-penak/boyo?style=flat-square"></a>
+<a href="https://github.com/sampun-penak/boyo/watchers"><img title="watchers" src="https://img.shields.io/github/watchers/sampun-penak/boyo?style=flat-square"></a>
 </p>
 
 
 #### Join Group
-[![Group Bot](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/ITjd9jsIfBAK5byfdb2cxj)
+[![Group Bot](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/EJik1WvMpxeCoCEGAFRqiV)
 
 #### ONLY RUN RAILWAY
 [`railway.app`](https://railway.app/new/github)
 
 #### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AyGemuy/Hinata)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sampun-penak/boyo)
 
-Edit the required value in [`config.js`](https://github.com/AyGemuy/Hinata/blob/master/config.js)
+Edit the required value in [`config.js`](https://github.com/sampun-penak/boyo/blob/master/config.js)
 
 #### Heroku Buildpack
 | BuildPack | LINK |
@@ -65,8 +65,8 @@ $ pkg install git -y
 $ pkg install nodejs -y
 $ pkg install ffmpeg -y
 $ pkg install imagemagick -y
-$ git clone https://github.com/AyGemuy/Hinata
-$ cd Hinata
+$ git clone https://github.com/sampun-penak/boyo
+$ cd boyo
 $ npm i 
 ```
 
@@ -106,14 +106,14 @@ apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpa
 
 ---------
 
-[ INSTALLING NODEJS & Hinata ]
+[ INSTALLING NODEJS & boyo ]
 
 ```bash
 ubuntu
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 apt install -y nodejs gcc g++ make
-git clone https://github.com/AyGemuy/Hinata
-cd Hinata
+git clone https://github.com/sampun-penak/boyo
+cd boyo
 npm install
 npm update
 ```
@@ -128,8 +128,8 @@ npm update
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/AyGemuy/Hinata
-cd Hinata
+git clone https://github.com/sampun-penak/boyo
+cd boyo
 npm install
 npm update
 ```
@@ -213,11 +213,11 @@ conn.sendButton(
 )
 
 // example 
-conn.sendButton(m.chat, 'Hello world!', '@AyGemuy', null, [
+conn.sendButton(m.chat, 'Hello world!', '@sampun-penak', null, [
       ['Hello', 'hello'], ['Bye', 'bye']
 ])
 // example button location
-conn.sendButton(m.chat, 'Hello world!', '@AyGemuy', 'https://github.com/AyGemuy', 
+conn.sendButton(m.chat, 'Hello world!', '@sampun-penak', 'https://github.com/sampun-penak', 
       [['Hello', 'hello'], ['Bye', 'bye']], 
       null, { asLocation: true }
 )
@@ -243,4 +243,4 @@ conn.sendButton(m.chat, 'Hello world!', '@AyGemuy', 'https://github.com/AyGemuy'
 
 
 #### Special Thanks to
-[![AyGemuy](https://github.com/AyGemuy.png?size=100)](https://github.com/AyGemuy)
+[![sampun-penak](https://github.com/sampun-penak.png?size=100)](https://github.com/sampun-penak)
